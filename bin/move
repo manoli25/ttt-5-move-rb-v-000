@@ -13,6 +13,9 @@ input = gets.strip
 index = input_to_index(input)
 
 updated_board = move(board, index, "X")
-
+puts "board =" board
+puts "now index..."
+puts index
+puts "now updated_board..."
 puts updated_board
 # display_board(updated_board)
