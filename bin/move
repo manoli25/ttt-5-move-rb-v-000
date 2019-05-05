@@ -11,4 +11,4 @@ input = gets.strip
 
 player_move = input_to_index(input)
 
-move(player_move)
+updated_board = move(player_move)
