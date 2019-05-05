@@ -16,4 +16,4 @@ updated_board = move(board, index, "X")
 
 puts updated_board
 
-display_board(updated_board)
+# display_board(updated_board)
